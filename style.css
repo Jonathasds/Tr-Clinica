@@ -24,17 +24,21 @@ body {
     width: 40px;
 }
 
-#header {
-    margin-bottom: 40px;
-   
 
+.cor{
+    opacity: .8;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    
 }
 
-#nav {
-    -webkit-box-shadow: 0px 8px 15px 0px rgba(240, 211, 26, 0.72);
+#nav{ 
+-webkit-box-shadow: 0px 8px 15px 0px rgba(240, 211, 26, 0.72);
     box-shadow: 0px 8px 15px 0px rgba(240, 211, 26, 0.72);
-    background-color: rgb(20, 6, 100); 
-    border-bottom: solid 1px blue;
+    
+
+border-bottom: solid 1px blue;
+ background-color: rgb(20, 6, 100);    
 }
 
 #home #nav #menu-nav .container li,
@@ -54,8 +58,8 @@ main {
 
 
 #home {
-    margin-top: 5px;
-    height: 100%;
+    
+    height: 100vh;
     width: 100%;
 }
 
@@ -65,7 +69,7 @@ main {
     border: 2px solid rgb(8, 8, 243);
     color: rgb(81, 6, 255);
     text-transform: uppercase;
-    padding: 2px 20px;
+    padding: 0 20px;
     border-radius: 5px;
     transition: 0.4s, color 0.4s;
 
@@ -91,6 +95,7 @@ main {
 
 #sobre {
     width: 100%;
+    height: 100vh;
     
 }
     
@@ -134,5 +139,60 @@ main {
     
 
 
+/* servicos */
+#estudos{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding: 30px 60px;
+
+    background-color: #fff;
+}
+
+/* @media (max-width:) */
 
 
+@media (max-width: 576px) { 
+   
+   
+    #sobre {
+        
+        height: 300vh;
+       } 
+
+       
+   #estudos{
+    
+    height: 180vh;
+    
+}
+ }
+
+
+@media (min-width: 768px) { 
+
+    #sobre {
+        
+        height: 200vh;
+       } 
+
+       
+   #estudos{
+    
+    height: 120vh;
+    
+}
+ }
+
+
+@media (min-width: 992px) {
+     #sobre {
+        
+    height: 180vh;
+   } 
+
+ 
+} 
+
+
+@media (min-width: 1200px) {  }
